@@ -1,0 +1,510 @@
+/*设置共有样式*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width:1349px;
+	height:auto;
+    background: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+/*设置头部主题样式*/
+#header{
+     width: 1349px;
+     height:172px;
+     margin:0 auto;
+}
+
+/*设置导航栏样式*/
+#header .nav{
+	width:1346px;
+    height: 40px;
+    margin:0 auto;
+    background: #f5f5f5
+}
+#header .nav ul li{
+	float:left;
+	font-size:12px;
+	text-align: center;
+	line-height: 40px;
+}
+#header .nav .nav_a1{
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+	color:black;
+	margin-left: 10px;
+}
+#header .nav .nav_a2{
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+	color:black;
+	margin-left: 10px;
+}
+#header .nav .nav_a3{
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+	color:black;
+	margin-left: 10px;
+}
+#header .nav .nav_a1{
+	color: red;
+	 margin-left: 72px;
+}
+
+/*设置第二个导航栏*/
+#header .nav .nav_two{
+    float:left;
+    margin-left: 427px;
+
+}
+#header .nav .nav_two li{
+	padding: 0px 5px;
+}
+#header .nav .nav_two li:nth-child(4){
+     height: 20px;
+     border-right: 1px solid gray;
+     margin-top: 10px;
+     line-height: 20px;
+     padding: 0px 10px;
+}
+/*设置第三个导航栏*/
+#header .nav .nav_three{
+	float: left;
+	margin-left: 10px;
+}
+#header .nav .nav_three li{
+	padding: 0px 10px;
+}
+#header .nav .nav_one .navli_one .diqu p{
+	font-size: 13px;
+	color:black;
+	text-align: left;
+	line-height: 20px;
+}
+/*设置我的淘宝相对应的选项卡*/
+#header .nav .nav_two .navli_two .baobei{
+	width:100px;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+#header .nav .nav_two .navli_two .baobei li{
+	line-height: 25px;
+}
+#header .nav .nav_two .navli_two .baobei li a{
+	color:black;
+}
+/*设置收藏夹对应的选项卡*/
+#header .nav .nav_two .navli_three .shoucang{
+	width:70px;
+	height: 100px;
+	background: #fff;
+	position: absolute;
+	left: 836px;
+	display: none;
+	z-index: 1;
+}
+#header .nav .nav_two .navli_three .shoucang li a{
+	color: black;
+}
+/*设置卖家中心对应的选项卡*/
+#header .nav .nav_three .navli_four .maijia{
+	width: 99px;
+    height: 200px;
+    background: #fff;
+    position: absolute;
+    left: 976px;
+    display: none;
+    z-index: 1;
+}
+#header .nav .nav_three .navli_four .maijia li{
+	line-height: 25px;
+}
+#header .nav .nav_three .navli_four .maijia li a{
+	color:black;
+}
+/*设置联系客服对应的选项卡*/
+#header .nav .nav_three .navli_five .kefu{
+	width: 91px;
+    height: 70px;
+    background: #fff;
+    position: absolute;
+    left: 1055px;
+    display: none;
+    z-index: 1;
+}
+#header .nav .nav_three .navli_five .kefu li{
+	line-height: 30px;
+}
+#header .nav .nav_three .navli_five .kefu li a{
+	color: black;
+}
+/*设置网站导航的选项卡*/
+#header .nav .nav_three .wangzhan{
+	width: 1130px;
+    height: 300px;
+    background: #fff;
+    position: absolute;
+    left: 95px;
+    display: none;
+    z-index: 1;
+}
+/*共有样式*/
+#header .nav .nav_three .wangzhan .wz{
+	float: left;
+	width:260px;
+	text-align: left;
+	margin-left: 2px;
+}
+#header .nav .nav_three .wangzhan .wzhan_one{
+	border-right: 1px solid #f5f5f5;
+}
+#header .nav .nav_three .wangzhan .wz h3{
+	font-size: 17px;
+}
+#header .nav .nav_three .wangzhan .wzhan_one h3{
+	color:#fc4200;
+}
+#header .nav .nav_three .wangzhan .wzhan_two h3{
+	color:#a6bd47;
+}
+#header .nav .nav_three .wangzhan .wzhan_three h3{
+	color:#d75696;
+}
+#header .nav .nav_three .wangzhan .wzhan_four h3{
+	color:#2e9fdb;
+}
+/*设置第一个选项卡1/4*/
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one1{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one1 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one1 li a{
+	color: black;
+}
+/*设置第一个选项卡2/4*/
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one2{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 60px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one2 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one2 li a{
+	color: black;
+}
+/*设置第一个选项卡3/4*/
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one3{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 121px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one3 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one3 li a{
+	color: black;
+}
+/*设置第一个选项卡4/4*/
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one4{
+width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 189px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one4 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_one .wzhan_one4 li a{
+	color: black;
+}
+
+/*设置第二个选项卡1/3*/
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two1{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two1 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two1 li a{
+	color: black;
+}
+/*设置第二个选项卡2/3*/
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two2{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 360px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two2 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two2 li a{
+	color: black;
+}
+/*设置第二个选项卡3/3*/
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two3{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 452px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two3 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_two .wzhan_two3 li a{
+	color: black;
+}
+/*设置第三个选项卡1/3*/
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three1{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three1 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three1 li a{
+	color: black;
+}
+/*设置第三个选项卡2/3*/
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three2{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 613px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three2 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three2 li a{
+	color: black;
+}
+/*设置第三个选项卡3/3*/
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three3{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 700px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three3 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_three .wzhan_three3 li a{
+	color: black;
+}
+/*设置第四个选项卡1/2*/
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four1{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four1 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four1 li a{
+	color: black;
+}
+/*设置第四个选项卡2/2*/
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four2{
+	width: 58px;
+    height: 267px;
+    top: 33px;
+    left: 918px;
+    position: absolute;
+    display: inline-block;
+}
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four2 li{
+	width:55px;
+	height: 20px;
+	margin-top: 8px; 
+	text-align: left;
+}
+#header .nav .nav_three .wangzhan .wzhan_four .wzhan_four2 li a{
+	color: black;
+}
+
+/*设置头部LOGO以及搜索框*/
+#header .header_div1{
+	width:1191px;
+	height:64px; 
+	margin: 0 auto;
+}
+#header .header_div1 .div1_img1{
+	display: inline-block;
+	    margin-top: 10px;
+}
+#header .header_div1 .div1_img2{
+	display: inline-block;
+}
+#header .header_div1 input{
+	 width: 413px;
+    height: 31px;
+    margin-top: 10px;
+    margin-left: 375px;
+    display: inline-block;
+    vertical-align: top;
+}
+#header .header_div1 .div1_a1{
+	width: 60px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	background: red;
+	font-weight: bold;
+    top: 50px;
+    right: 227px;
+}
+#header .header_div1 .div1_a2{
+	width: 60px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: #fff;
+	font-size: 14px;
+	position: absolute;
+	background:#131212;
+	font-weight: bold;
+    top: 50px;
+    right: 167px
+}
+
+#header .header_div2{
+	width:1349px;
+	height:64px;
+    border-bottom: 2px solid black;
+}
+#header .header_div2 ul{
+    width: 324px;
+    height: 64px;
+    margin-left: 77px;
+}
+#header .header_div2 ul li{
+	float: left;
+    margin-left: 19px;
+    padding: 38px 14px 0px 14px;
+    font-weight: bold;
+}
+#header .header_div2 .div2_a{
+    position: absolute;
+    color: black;
+    font-size: 19px;
+    display: inline-block;
+    top: 141px;
+    left: 1149px;
+    font-weight: bold;
+}
+#main{
+	width: 1349px;
+	height: auto;
+	margin-top: 10px;
+}
+#main .main_img{
+	margin-left: 81px;
+}
+#main .main_div1{
+	 width: 1000px;
+	margin: 0 auto;
+}
+#main .main_div1 .div1_ul{
+	width:1000px;
+	height: 301px;
+}
+#main .main_div1 .div1_ul li img{
+	width:100%;
+}
+#main .main_div1 .div1_ul li{
+	float: left;
+    width: 184px;
+    height: 290px;
+    padding: 5px;
+}
+#main .main_div1 .div1_ul li span{
+	font-size: 10px;
+}
+#main .main_div1 .div1_ul li p{
+	color: red;
+	font-weight: bold;
+}
+#main .main_div1 .div1_ul li .div1_a{
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	background: #ff6699;
+}

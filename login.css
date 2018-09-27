@@ -1,0 +1,198 @@
+/*设置共有样式*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width:1349px;
+	height:auto;
+    background: #fff;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+/*设置头部主题样式*/
+#header{
+     width: 1344px;
+     height:130px;
+     border: 1px solid red;
+     margin:0 auto;
+}
+#header .header_img{
+	width: 155px;
+    margin-top: 27px;
+    margin-left: 71px;
+    display: inline-block;
+    vertical-align: top;
+}
+#header .header_p1{
+	font-size: 13px;
+    display: inline-block;
+    color: 13px;
+    vertical-align: top;
+    margin-top: 53px;
+    background: #ffb4a8;
+        border: 1px solid;
+    margin-left: 25px;
+}
+#header .header_img2{
+	 width: 15px;
+    margin-top: 112px;
+    margin-left: 71px;
+    display: inline-block;
+    vertical-align: top;
+}
+#header .header_a{
+	color: black;
+	 display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    margin-top: 113px;
+}
+
+#main{
+	width: 100%;
+	height:600px;
+    background: url(img/TB1GTCYLXXXXXcHXpXXcoeQ2VXX-2500-600.jpg) no-repeat;
+    background-size: cover;
+    background-position-x: -620px;
+    margin: 0 auto;
+    position: relative;
+}
+#main .main_div{
+	width: 350px;
+	height: 350px;
+    background: #e8eaf1;
+    position: absolute;
+    top:120px;
+    right: 239px;
+}
+#main .main_div h3{
+	    margin-top: 19px;
+    margin-left: 27px;
+}
+#div_num{
+	width: 234px;
+    height: 40px;
+    background: #fff;
+    margin-left: 26px;
+    margin-top: 45px;
+    padding-left: 53px;
+}
+#div_num2{
+	width: 234px;
+    height: 40px;
+    background: #fff;
+    margin-left: 26px;
+    margin-top: 26px;
+    padding-left: 53px;
+}
+#main .main_div .div_img1{
+	position: absolute;
+	left: 27px;
+    top: 90px;
+}
+#main .main_div .div_img2{
+	position: absolute;
+	left: 27px;
+    top: 159px;
+}
+#main .main_div button{
+	 width: 280px;
+    height: 40px;
+    background: #f75338;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+#main .main_div ul{
+	margin-top: 23px;
+}
+#main .main_div ul li{
+	float: left;
+	margin-left: 22px;
+}
+#main .main_div ul li img{
+    width:15px;
+    display: inline-block;
+    vertical-align: top;
+}
+#main .main_div ul li a{
+	color: black;
+	font-size: 10px;
+	vertical-align: top;
+}
+#main .main_div .denglu_a{
+	float: left;
+	font-size: 12px;
+	color: black;
+	position: absolute;
+}
+#main .main_div .denglu_one{
+	top: 315px;
+    left: 135px;
+}
+#main .main_div .denglu_two{
+	top: 315px;
+    left: 197px;
+}
+#main .main_div .denglu_three{
+	top: 315px;
+    left: 259px;
+}
+#info{
+    position: absolute;
+    width: 170px;
+    top: 168px;
+    left: 153px;
+    color: red;
+}
+/*设置尾部*/
+    #footer{
+        width: 1191px;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    #footer .footer_ul1{
+        width:1191px;
+        height:40px;
+        border-bottom: 2px solid gray;
+    }
+    #footer .footer_ul1 li{
+        float: left;
+        margin-left: 5px;
+        line-height: 40px;
+    }
+    #footer .footer_ul1 li a{
+        color: gray;
+        font-size: 12px;
+    }
+    #footer .footer_ul1 li a:hover{
+        color: red;
+    }
+     
+     #footer .footer_ul2{
+            height: 34px;
+            margin-top: 10px;
+         }
+         #footer .footer_ul2 li{
+          float: left;
+          height: 15px;
+          border-right: 1px solid gray;
+          padding-left: 4px;
+          padding-right: 4px;
+          margin-left: 5px;
+          line-height: 15px;
+         }
+         #footer .footer_ul2 li a{
+             color: gray;
+            text-align: center;
+            font-size: 10px;
+         }
+         #footer .footer_ul2 li a:hover{
+             color: red;
+         }

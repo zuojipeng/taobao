@@ -1,0 +1,2139 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘宝网-淘！我喜欢</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src='jquery-1.8.3.min.js'></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<!-- 设置表头导航栏部分 -->
+<header id="header">
+		<!-- 命名导航栏 -->
+		<!-- 第一个导航栏 -->
+		<div class="nav">
+			<ul class="nav_one">
+				<li class="navli_one">中国大陆  ∨
+                     <!-- 对应中国大陆 -->
+		             <ul class="diqu">
+		    	            <p>全球</p>
+		    	            <p>中国大陆</p>
+		    	            <p>香港</p>
+		    	            <p>台湾</p>
+		    	            <p>澳门</p>
+		    	            <p>韩国</p>
+		    	            <p>马来西亚</p>
+		    	            <p>澳大利亚</p>
+		    	            <p>新加坡</p>
+		    	            <p>新西兰</p>
+		    	            <p>加拿大</p>
+		    	            <p>美国</p>
+		    	            <p>日本</p>
+		              </ul>
+				</li>
+				<li><a href="login.html">亲，请登录</a></li>
+				<li><a href="register.html">免费注册</a></li>
+				<li><a href="#">手机逛淘宝</a></li>
+			</ul>
+		<!-- 第二个导航栏 -->
+			<ul class="nav_two">
+				<li class="navli_two">我的淘宝  ∨
+				<!-- 对应我的淘宝 -->
+                      <ul class="baobei">
+                      	<li><a href="#">已买到的宝贝</a></li>
+                      	<li><a href="#">我的足迹</a></li>
+                      </ul>
+				</li>
+				<li>购物车  ∨</li>
+				<li class="navli_three">收藏夹  ∨
+				      <!-- 对应的收藏夹 -->
+                      <ul class="shoucang">
+                      	<li><a href="#">收藏的宝贝</a></li>
+                      	<li><a href="#">收藏的店铺</a></li>
+                      </ul>
+				</li>
+				<li>商品分类</li>
+			</ul>
+		<!-- 第三个导航栏 -->
+		    <ul class="nav_three">
+				<li class="navli_four">卖家中心  ∨
+				<!-- 设置对应的卖家中心 -->
+                      <ul class="maijia">
+                      	<li><a href="#">免费开店</a></li>
+                      	<li><a href="#">已卖出的宝贝</a></li>
+                      	<li><a href="#">出售中的宝贝</a></li>
+                      	<li><a href="#">卖家服务市场</a></li>
+                      	<li><a href="#">卖家培训中心</a></li>
+                      	<li><a href="#">体检中心</a></li>
+                      	<li><a href="#">问网友</a></li>
+                      </ul>
+				</li>
+				<li class="navli_five">联系客服  ∨
+				<!-- 设置客服对应选项卡 -->
+                     <ul class="kefu">
+                     	<li><a href="#">消费者客服</a></li>
+                     	<li><a href="#">卖家客服</a></li>
+                     </ul>
+				</li>
+				<li class="navli_six">网站导航  ∨
+                      <!-- 设置网站导航的选项卡 -->
+                    <div class="wangzhan">
+                      <!-- 第一个主题市场 -->
+                     	<ul class="wz wzhan_one">
+                     		<h3>主题市场</h3>
+                     		<ul class="wzhan_one1">
+                     			<li><a href="#">女装</a></li>
+                     			<li><a href="#">箱包</a></li>
+                     			<li><a href="#">手机</a></li>
+                     			<li><a href="#">手表</a></li>
+                     			<li><a href="#">游戏</a></li>
+                     			<li><a href="#">鲜花</a></li>
+                     			<li><a href="#">装修</a></li>
+                     			<li><a href="#">汽车</a></li>
+                     			<li><a href="#">教育</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one2">
+                     			<li><a href="#">男装</a></li>
+                     			<li><a href="#">婴童</a></li>
+                     			<li><a href="#">美妆</a></li>
+                     			<li><a href="#">运动</a></li>
+                     			<li><a href="#">动漫</a></li>
+                     			<li><a href="#">宠物</a></li>
+                     			<li><a href="#">建材</a></li>
+                     			<li><a href="#">二手车</a></li>
+                     			<li><a href="#">卡券</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one3">
+                     			<li><a href="#">内衣</a></li>
+                     			<li><a href="#">家电</a></li>
+                     			<li><a href="#">珠宝</a></li>
+                     			<li><a href="#">户外</a></li>
+                     			<li><a href="#">影视</a></li>
+                     			<li><a href="#">农资</a></li>
+                     			<li><a href="#">家居</a></li>
+                     			<li><a href="#">办公</a></li>
+                     			<li><a href="#">本地</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one4">
+                     			<li><a href="#">鞋靴</a></li>
+                     			<li><a href="#">数码</a></li>
+                     			<li><a href="#">眼镜</a></li>
+                     			<li><a href="#">乐器</a></li>
+                     			<li><a href="#">美食</a></li>
+                     			<li><a href="#">房产</a></li>
+                     			<li><a href="#">百货</a></li>
+                     			<li><a href="#">定制</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_two">
+                     		<h3>特色市场</h3>
+                            <!-- 第二个特色市场 -->
+                     		<ul class="wzhan_two1">
+                     			<li><a href="#">iFashion</a></li>
+                     			<li><a href="#">全球购</a></li>
+                     			<li><a href="#">星店</a></li>
+                     			<li><a href="#">拍卖会</a></li>
+                     			<li><a href="#">飞猪</a></li>
+                     			<li><a href="#">农资</a></li>
+                     			<li><a href="#">俪人购</a></li>
+                     			<li><a href="#">全球精选</a></li>
+                     			<li><a href="#">量贩团</a></li>
+                     		</ul>
+                     		<ul class="wzhan_two2">
+                     			<li><a href="#">爱逛街</a></li>
+                     			<li><a href="#">腔调</a></li>
+                     			<li><a href="#">极有家</a></li>
+                     			<li><a href="#">淘宝众筹</a></li>
+                     			<li><a href="#">亲宝贝</a></li>
+                     			<li><a href="#">天天特价</a></li>
+                     			<li><a href="#">聚名品</a></li>
+                     			<li><a href="#">非常大牌</a></li>
+                     			<li><a href="#">阿里翻译</a></li>
+                     		</ul>
+                     		<ul class="wzhan_two3">
+                     			<li><a href="#">美妆秀</a></li>
+                     			<li><a href="#">淘女郎</a></li>
+                     			<li><a href="#">特色中国</a></li>
+                     			<li><a href="#">中国制造</a></li>
+                     			<li><a href="#">闲鱼</a></li>
+                     			<li><a href="#">Outlets</a></li>
+                     			<li><a href="#">淘抢购</a></li>
+                     			<li><a href="#">适用</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_three">
+                     		<h3>阿里 APP</h3>
+                            <!-- 第三个阿里 APP -->
+                     		<ul class="wzhan_three1">
+                     			<li><a href="#">淘宝</a></li>
+                     			<li><a href="#">聚划算</a></li>
+                     			<li><a href="#">旺信</a></li>
+                     			<li><a href="#">钉钉</a></li>
+                     			<li><a href="#">虾米音乐</a></li>
+                     			<li><a href="#">爱逛街</a></li>
+                     			<li><a href="#">网商银行</a></li>
+                     		</ul>
+                     		<ul class="wzhan_three2">
+                     			<li><a href="#">天猫</a></li>
+                     			<li><a href="#">飞猪</a></li>
+                     			<li><a href="#">闲鱼</a></li>
+                     			<li><a href="#">高德地图</a></li>
+                     			<li><a href="#">淘票票</a></li>
+                     			<li><a href="#">拍卖会</a></li>
+                     			<li><a href="#">阿里邮箱</a></li>
+                     		</ul>
+                     		<ul class="wzhan_three3">
+                     			<li><a href="#">支付宝</a></li>
+                     			<li><a href="#">蚂蚁聚宝</a></li>
+                     			<li><a href="#">阿里钱盾</a></li>
+                     			<li><a href="#">点点虫</a></li>
+                     			<li><a href="#">菜鸟裹裹</a></li>
+                     			<li><a href="#">阿里云</a></li>
+                     			<li><a href="#">阿里众包</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_four">
+                     		<h3>精彩推荐集</h3>
+                     		 <!-- 第四个精品推荐 -->
+                     		<ul class="wzhan_four1">
+                     			<li><a href="#">余额宝</a></li>
+                     			<li><a href="#">淘公仔</a></li>
+                     			<li><a href="#">淘宝香港</a></li>
+                     			<li><a href="#">淘宝全球</a></li>
+                     			<li><a href="#">闺蜜淘货</a></li>
+                     			<li><a href="#">淘工作</a></li>
+                     		</ul>
+                     		<ul class="wzhan_four2">
+                     			<li><a href="#">大牌捡宝</a></li>
+                     			<li><a href="#">浏览器</a></li>
+                     			<li><a href="#">淘宝台湾</a></li>
+                     			<li><a href="#">淘宝东南亚</a></li>
+                     			<li><a href="#">大众审评</a></li>
+                     		</ul>
+                     	</ul>
+                 
+                     </div>
+				</li>
+			</ul>
+		</div>
+		<!-- 设置导航栏下边图片链接 -->
+		<div class="header_bg">
+			  <a href="#"><img src="img/TB1iqA0sQCWBuNjy0FaXXXUlXXa-90-80.png"></a>
+
+              <!-- 设置同样的 -->
+			  <div class="sekuang zise">
+			  	  <a href="#" class="zise_a"><p>笔记本电</p></a>
+			  	  <a href="#"><p>最高立减五百</p></a>
+			  	  <div class="zise_pic">
+			  	  	
+			  	  </div>
+			  </div>
+			  <!-- 第二个 -->
+			  <div class="sekuang chengse">
+			  	  <a href="#" class="zise_a"><p>茶乳冲饮</p></a>
+			  	  <a href="#"><p>冲饮300减30</p></a>
+			  	  <div class="zise_pic">
+			  	  	
+			  	  </div>
+			  </div>
+			  <!-- 第三个 -->
+			  <div class="sekuang fense">
+			  	  <a href="#" class="zise_a"><p>潮流个护</p></a>
+			  	  <a href="#"><p>买正装送正装</p></a>
+			  	  <div class="zise_pic">
+			  	  	
+			  	  </div>
+			  </div>
+			  <!-- 第四个 -->
+			  <div class="sekuang lanse">
+			  	  <a href="#" class="zise_a"><p>空调会场</p></a>
+			  	  <a href="#"><p>最高12期免息</p></a>
+			  	  <div class="zise_pic">
+			  	  	
+			  	  </div>
+			  </div>
+			  <!-- 第五个 -->
+			  <div class="sekuang lvse">
+			  	  <a href="#" class="zise_a"><p>潮流男鞋</p></a>
+			  	  <a href="#"><p>男鞋199元起</p></a>
+			  	  <div class="zise_pic">
+			  	  	
+			  	  </div>
+			  </div>
+		</div>
+		<!-- 设置隐藏导航栏 -->
+		<div class="nav2">
+			<img src="img/2018-06-16_224912.jpg" class="nav2_logo">
+			<div class="nav2_sosuo">
+			     <span class="nav2_tb">淘宝
+                      <ul class="nav2_tberzi">
+                      <li><a href="#">天猫</a></li>
+                      <li><a href="#">店铺</a></li>
+                      </ul>
+			     </span>
+				 <input type="text" name="" value="">
+                 <img src="img/fangdajing.png" class="nav2_fdj">
+                 <p>会发光的衣服</p>
+                 <img src="img/xiangji.png" class="nav2_xiangji">
+                 <a href="#">搜索</a>
+			</div> 
+		</div>
+	</header>
+	<!-- 设置主题位置 -->
+	<div id="main">
+		 <div class="main_zhuti">
+		     <!-- 设置主体搜索栏 -->
+		 	  <div class="main_sosuo">
+		 	  	    <img src="img/TB1sRuysN9YBuNjy0FfXXXIsVXa-190-140.gif" class="sosuo_donghua"> 
+		 	  	    <!-- 设置搜索栏 -->
+			       <div class="zhuti_sosuo">
+				         <img src="img/fangdajing.png" class="zhuti_fdj">
+				         <p>会发光的衣服</p>
+				         <img src="img/xiangji.png" class="zhuti_xiangji">
+                         <a href="#">搜索</a>
+                         <span><a href="#">宝贝</a></span>
+                         <p class="zhuti_p1"><a href="#">天猫</a></p>
+                         <p class="zhuti_p2"><a href="#">店铺</a></p>
+
+                         <div class="zhuti_erweima">
+                            <p>手机淘宝</p>
+                            <img src="img/TB17e_6e3MPMeJjy1XcXXXpppXa-380-382.png">	
+                            <a href="#">X</a>
+                         </div>
+			       </div> 
+		 	  </div>
+		 	  <ul class="main_ul">
+		 	     <li class="zhuti_li"><a href="#">男士T恤</a></li>
+		 	     <li><a href="#">套装女春装</a></li>
+		 	     <li class="zhuti_li"><a href="#">大屏电视</a></li>
+		 	     <li><a href="#">平底鞋</a></li>
+		 	     <li><a href="#">时尚连衣裙</a></li>
+		 	     <li class="zhuti_li"><a href="#">新款男鞋</a></li>
+		 	     <li><a href="#">衬衫</a></li>
+		 	     <li><a href="#">雪纺衫</a></li>
+		 	     <li><a href="#">时尚休闲裤</a></li>
+		 	     <li><a href="#">真丝连衣裙</a></li>
+		 	  </ul>
+		 	  <a href="#" class="main_aa">更多></a>
+		 </div>
+		     <span class="main_shichang">主题市场</span>
+	         <!-- 设置侧边选项卡 -->
+	        
+		           <ul class="daohang_ul">
+		           	    <li class="daohang_nvzh"><a href="#">女装/男装/内衣  ></a>
+                               <ul class="nvzhuang_xuan xuanxiang">
+                           	           <ul class="nvzhuang_nan1">
+                           	           	    <h2>女装</h2>
+                           	           	    <a href="#" class="nvnan_a1">更多></a>
+                                            <ul>
+                                                <li><a href="list.html">街头潮人馆</a></li>
+                                                <li><a href="#">连衣裙</a></li>
+                                                <li><a href="#">T恤</a></li>
+                                                <li><a href="#">衬衫</a></li>
+                                                <li><a href="#">雪纺衫</a></li>
+                                                <li><a href="#">裤子</a></li>
+                                                <li><a href="#">半身裙</a></li>
+                                                <li><a href="#">牛仔裤</a></li>
+                           	                </ul>
+                           	                <ul>
+                                                <li><a href="#">蕾丝衫</a></li>
+                                                <li><a href="#">背心吊带</a></li>
+                                                <li><a href="#">雪纺连衣裙</a></li>
+                                                <li><a href="#">阔腿裤</a></li>
+                                                <li><a href="#">时尚套装</a></li>
+                                                <li><a href="#">防晒衫</a></li>
+                                                <li><a href="#">短裤</a></li>
+                           	                </ul>
+                           	                <ul>
+                                                <li><a href="#">大码女装</a></li>
+                                                <li><a href="#">薄西装</a></li>
+                                                <li><a href="#">ifashion女装</a></li>
+                                                <li><a href="#">棉麻连衣裙</a></li>
+                                                <li><a href="#">旗袍</a></li>
+                                                <li><a href="#">真丝连衣裙</a></li>
+                           	                </ul>
+                           	                <ul>
+                                                <li><a href="#">妈妈夏装</a></li>
+                                                <li><a href="#">大码连衣裙</a></li>
+                                                <li><a href="#">冰丝冰感</a></li>
+                                                <li><a href="#">红人推荐</a></li>
+                                                <li><a href="#">私服名媛</a></li>
+                                                <li><a href="#">甜美清新</a></li>
+                           	                </ul>
+                                       </ul>
+
+                                       <ul class="nvzhuang_nan2">
+                                            <h2>女装</h2>
+                                            <a href="#" class="nvnan_a2">更多></a>
+                                            <ul>
+                                                <li><a href="#">街头潮人馆</a></li>
+                                                <li><a href="#">连衣裙</a></li>
+                                                <li><a href="#">T恤</a></li>
+                                                <li><a href="#">衬衫</a></li>
+                                                <li><a href="#">雪纺衫</a></li>
+                                                <li><a href="#">裤子</a></li>
+                                                <li><a href="#">半身裙</a></li>
+                                                <li><a href="#">牛仔裤</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">蕾丝衫</a></li>
+                                                <li><a href="#">背心吊带</a></li>
+                                                <li><a href="#">雪纺连衣裙</a></li>
+                                                <li><a href="#">阔腿裤</a></li>
+                                                <li><a href="#">时尚套装</a></li>
+                                                <li><a href="#">防晒衫</a></li>
+                                                <li><a href="#">短裤</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">大码女装</a></li>
+                                                <li><a href="#">薄西装</a></li>
+                                                <li><a href="#">ifashion女装</a></li>
+                                                <li><a href="#">棉麻连衣裙</a></li>
+                                                <li><a href="#">旗袍</a></li>
+                                                <li><a href="#">真丝连衣裙</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">妈妈夏装</a></li>
+                                                <li><a href="#">大码连衣裙</a></li>
+                                                <li><a href="#">冰丝冰感</a></li>
+                                                <li><a href="#">红人推荐</a></li>
+                                                <li><a href="#">私服名媛</a></li>
+                                                <li><a href="#">甜美清新</a></li>
+                                            </ul>
+                                       </ul>
+                                    <ul class="nvzhuang_nan3">
+                                            <h2>女装</h2>
+                                            <a href="#" class="nvnan_a3">更多></a>
+                                            <ul>
+                                                <li><a href="#">街头潮人馆</a></li>
+                                                <li><a href="#">连衣裙</a></li>
+                                                <li><a href="#">T恤</a></li>
+                                                <li><a href="#">衬衫</a></li>
+                                                <li><a href="#">雪纺衫</a></li>
+                                                <li><a href="#">裤子</a></li>
+                                                <li><a href="#">半身裙</a></li>
+                                                <li><a href="#">牛仔裤</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">蕾丝衫</a></li>
+                                                <li><a href="#">背心吊带</a></li>
+                                                <li><a href="#">雪纺连衣裙</a></li>
+                                                <li><a href="#">阔腿裤</a></li>
+                                                <li><a href="#">时尚套装</a></li>
+                                                <li><a href="#">防晒衫</a></li>
+                                                <li><a href="#">短裤</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">大码女装</a></li>
+                                                <li><a href="#">薄西装</a></li>
+                                                <li><a href="#">ifashion女装</a></li>
+                                                <li><a href="#">棉麻连衣裙</a></li>
+                                                <li><a href="#">旗袍</a></li>
+                                                <li><a href="#">真丝连衣裙</a></li>
+                                            </ul>
+                                       </ul>
+                                </ul>
+		            	</li>
+		            	<li class="daohang_nvzh1"><a href="#">鞋靴/箱包/配件  ></a>
+                                <ul class="nvzhuang_xuan1 xuanxiang">2</ul>        
+		            	</li>
+		            	<li class="daohang_nvzh2"><a href="#">童装玩具/孕产/用品  ></a>
+                                <ul class="nvzhuang_xuan2 xuanxiang">3</ul>
+		            	</li>
+		            	<li class="daohang_nvzh3"><a href="#">家电/数码/ 手机  ></a>
+                                <ul class="nvzhuang_xuan3 xuanxiang">4</ul>
+		            	</li>
+		            	<li class="daohang_nvzh4"><a href="#">美妆/洗护/保健品  ></a>
+                                <ul class="nvzhuang_xuan4 xuanxiang">5</ul>
+		            	</li>
+		            	<li class="daohang_nvzh5"><a href="#">珠宝/眼镜/手表  ></a>
+                                <ul class="nvzhuang_xuan5 xuanxiang">6</ul>
+		            	</li>
+		            	<li class="daohang_nvzh6"><a href="#">运动/户外/乐器  ></a>
+                                <ul class="nvzhuang_xuan6 xuanxiang">7</ul>
+		            	</li>
+		            	<li class="daohang_nvzh7"><a href="#">游戏/动漫/影视  ></a>
+                                 <ul class="nvzhuang_xuan7 xuanxiang">8</ul>
+		            	</li>
+		            	<li class="daohang_nvzh8"><a href="#">美食/生鲜/零食  ></a>
+                                 <ul class="nvzhuang_xuan8 xuanxiang">9</ul>
+		            	</li>
+		            	<li class="daohang_nvzh9"><a href="#">美食/生鲜/零食  ></a>
+                                  <ul class="nvzhuang_xuan9 xuanxiang">10</ul>
+		            	</li>
+		            	<li class="daohang_nvzh10"><a href="#">美食/生鲜/零食  ></a>
+                                   <ul class="nvzhuang_xuan10 xuanxiang">11</ul>
+		            	</li>
+		            	<li class="daohang_nvzh11"><a href="#">美食/生鲜/ 零食  ></a>
+                                    <ul class="nvzhuang_xuan11 xuanxiang">12</ul>
+		            	</li>
+		            	<li class="daohang_nvzh12"><a href="#">美食/生鲜/零食  ></a>
+                                     <ul class="nvzhuang_xuan12 xuanxiang">13</ul>
+		            	</li>
+		            	<li class="daohang_nvzh13"><a href="#">美食/生鲜/零食  ></a>
+                                      <ul class="nvzhuang_xuan13 xuanxiang">14</ul>
+		            	</li>
+		            	<li class="daohang_nvzh14"><a href="#">美食/生鲜/零食  ></a>
+                                       <ul class="nvzhuang_xuan14 xuanxiang">15</ul>
+		            	</li>
+		            	<li class="daohang_nvzh15"><a href="#">学习/卡券/本地服务  ></a>
+                                        <ul class="nvzhuang_xuan15 xuanxiang">16</ul>
+		            	</li>
+		  </ul>
+
+		  <ul class="main_nav">
+		      	<li><a href="#">天猫</a></li>
+		      	<li><a href="#">聚划算</a></li>
+		      	<li><a href="#">天猫超市</a></li>
+		      	<li><a href="#">淘抢购</a></li>
+		      	<li><a href="#">电器城</a></li>
+		      	<li><a href="#">司法拍卖</a></li>
+		      	<li><a href="#">中国质造</a></li>
+		      	<li><a href="#">兴农扶贫</a></li>
+		      	<li><a href="#">飞猪旅行</a></li>
+		      	<li><a href="#">智能生活</a></li>
+		      	<li><a href="#">苏宁易购</a></li>
+		      	<img src="img/TB1wmSawXOWBuNjy0FiXXXFxVXa-90-30.gif">
+		      </ul>
+		  </ul>
+
+		  <!-- 设置轮播图 -->
+		       <div id="box">
+	               <!--图片-->
+					<ul class="img">
+						<li class="show"><img src="img/TB1gmwihyAnBKNjSZFvSuuTKXXa (1).jpg"></li>
+						<li><img src="img/TB1hLC0xXOWBuNjy0FiXXXFxVXa-520-280.jpg_q90.jpg"></li>
+						<li><img src="img/TB1MjYowCBYBeNjy0FeXXbnmFXa-520-280.jpg_q90__22.jpg"></li>
+						<li><img src="img/TB1SpnqwxGYBuNjy0FnXXX5lpXa-520-280.jpg_q90__lun.jpg"></li>
+						<li><img src="img/TB1X1fMuf1TBuNjy0FjSuujyXXa.jpg"></li>
+					</ul>
+					<!--圆点-->
+					<ul class="num">
+						<li class="on"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<!--箭头-->
+					<div class="lr">
+						<div class="lrstyle left"><</div>
+						<div class="lrstyle right">></div>
+					</div>
+               </div>
+             <!-- 设置轮播图边上的图 -->
+               <div class="main_xiaotu">
+                     <img src="img/TB20T_9xf9TBuNjy0FcXXbeiFXa_!!20-0-lubanu.jpg_290x290q90.jpg_.webp">
+               </div>
+           <!-- 设置第二个轮播图 -->
+               <div id="main_tianmao">
+                    <ul class="tianmao_img">
+		               	 <li class="tianmao_show"><img src="img/2018-06-19_154322.jpg"></li>
+						 <li><img src="img/2018-06-19_153927.jpg"></li>
+						 <li><img src="img/2018-06-19_153809.jpg"></li>
+						 <li><img src="img/2018-06-19_154500.jpg"></li>
+						 <li><img src="img/erlunbo1.jpg"></li>
+						 <li><img src="img/2018-06-19_154014.jpg"></li>
+					</ul>
+					 <!--黑条-->
+			    <ul class="tianmao_num">
+						<li class="tianmao_on"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+	            </ul>
+			    <div class="tianmao_lr">
+			        <div class="tmlrstyle tmleft"><</div>
+					<div class="tmlrstyle tmright">></div>
+			    </div>
+          </div>  
+          <!-- 天猫LOGO -->
+          <img src="img/2018-06-19_165318.jpg" class="tianmao_ltu">
+          <!-- 字体 -->
+          <p class="tianmao_ziti">理想上的天猫</p>
+
+           <div class="main_xiaotu2">
+           	    <img src="img/TB1d4F9qVuWBuNjSszbSuwS7FXa.jpg">
+           </div>
+
+           <!-- 设置登录 -->
+           <div class="main_denglu">
+           	     	<img src="img/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_50x50.jpg" class="main_dltouxiang">
+           	     	<p class="denglu_p">Hi! 你好</p>
+
+           	     	<ul class="dl_taojb">
+		           	     <li><a href="#">领淘金币抵钱</a></li>
+		           	     <li><a href="#">会员俱乐部</a></li>
+           	     	</ul>
+           	     	<ul class="dl_taojb2">
+		           	    <li><a href="">登录</a></li>
+		           	    <li><a href="">注册</a></li>
+		           	    <li><a href="">开店</a></li>
+           	     	</ul>
+           	     	<div class="dlziti">
+           	     		<a href="#">网上有害信息举报专区     ▶</a>   
+           	     	</div>
+           	     	<!-- 设置公告的选项卡 -->
+           	     <div class="denglu_gg">
+           	     		<ul>
+           	     			<li class="gg_one">公告</li>
+           	     			<li>规则</li>
+           	     			<li>论坛</li>
+           	     			<li>安全</li>
+           	     			<li>公益</li>
+           	     	    </ul>
+           	     </div>
+           	     <div class="gonggao_gg">
+           	     	   <!-- 对应公告 -->
+                        <ul class="gg_wzone">
+                        	<li><a href="#">天猫618引爆线上线下 </a></li>
+                        	<li><a href="#">新零售力量全面爆发</a></li>
+                        	<li><a href="#">天猫618：15秒抢空茅台 </a></li>
+                        	<li><a href="#">新零售力量全面爆发</a></li>
+                        </ul>
+                         <!-- 对应规则 -->
+                        <ul>
+                        	<li><a href="#">新增《淘宝网抽签标准 </a></li>
+                        	<li><a href="#">《淘宝禁售商品管理规</a></li>
+                        	<li><a href="#">新增《淘宝网大家电行 </a></li>
+                        	<li><a href="#">《淘宝网直播平台管理规</a></li>
+                        </ul>
+                         <!-- 对应论坛-->
+                        <ul>
+                        	<li><a href="#">小二分享大促干货 </a></li>
+                        	<li><a href="#">中差评能升级</a></li>
+                        	<li><a href="#">陌生人拼团上线 </a></li>
+                        	<li><a href="#">运营神器年中大促</a></li>
+                        </ul>
+                         <!-- 对应安全-->
+                        <ul>
+                        	<li><a href="#">魔豆妈妈公益项目</a></li>
+                        	<li><a href="#">让母爱永不打烊</a></li>
+                        	<li><a href="#">卖家注意：风险通报 </a></li>
+                        	<li><a href="#">售假获刑又起诉</a></li>
+                        </ul>
+                         <!-- 对应公益-->
+                        <ul>
+                        	<li><a href="#">为宝贝送儿童节礼物吧</a></li>
+                        	<li><a href="#">卖家如何设置公益宝贝</a></li>
+                        	<li><a href="#">项目如何入驻公益宝贝</a></li>
+                        	<li><a href="#">公益宝贝卖家发票索取</a></li>
+                        </ul>
+           	     </div>
+           	     <!-- 设置充话费的选项卡 -->
+           	     <div class="denglu_jingl">
+           	     	   <ul>
+           	     	   	   <li class="jingL_chf"><a href="#"><span class="dlu_jl dlu"></span>
+                                 <p>充话费</p>
+           	     	   	   </a>
+           	     	   	   </li>
+           	     	   	   <li class="jingL_chf2"><a href="#"><span class="dlu_jl2 dlu"></span>
+                                  <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl3 dlu"></span>
+                                  <p>车险</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl4 dlu"></span>
+                                  <p>游戏</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl5 dlu"></span>
+                                  <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl6 dlu"></span>
+                                  <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl7 dlu"></span>
+                                   <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl8 dlu"></span>
+                                   <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl9 dlu"></span>
+                                    <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl10 dlu"></span>
+                                   <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl11 dlu"></span>
+                                   <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   	   <li><a href="#"><span class="dlu_jl12 dlu"></span>
+                                   <p>旅行</p>
+           	     	   	   </a></li>
+           	     	   </ul>
+                       <!-- 对应充话费的选项卡 -->
+           	     	   <div class="dih_xuanxk">
+           	     	   	     <div class="dengl_chliul">
+           	     	   	     	<ul>
+           	     	   	     	   <li class="chliul_lil">充话费</li>
+           	     	   	     	   <li>充流量</li>
+           	     	   	     	   <li>冲固话</li>
+           	     	   	     	   <li>冲宽带</li>
+           	     	   	     	</ul>
+           	     	   	     </div>
+           	     	   	     <!-- 对应充话费选项卡 -->
+           	     	   	     <div class="dlu_chonghuafei">
+		           	     	   	     <!-- 对应的充话费 -->
+		           	     	   	     <div class="dengl_chliul1">
+		           	     	   	     	<input type="text" value="请输入手机号">
+		           	     	   	     	<input type="text" value="50元">
+		                                <ul><li>售价 ￥ <p>49-49.8</p></li></ul>
+		                                <span>立即充值</span>
+		           	     	   	     </div>
+		           	     	   	     <!-- 对应的流量 -->
+		           	     	   	     <div>
+		           	     	   	     	<input type="text" value="区号-号码(不支持小灵通)">
+		           	     	   	     	<input type="text" value="全国流量">
+		                                <ul><li>售价 ￥ <p>49-49.8</p></li></ul>
+		                                <span>立即充值</span>
+		           	     	   	     </div>
+		           	     	   	     <!-- 对应的充固话 -->
+		           	     	   	     <div>
+		           	     	   	     	<input type="text" value="区号-号码(不支持小灵通)">
+		           	     	   	     	<input type="text" value="50元">
+		                                <ul><li>售价 ￥ <p>49-49.8</p></li></ul>
+		                                <span>立即充值</span>
+		           	     	   	     </div>
+		           	     	   	     <!-- 对应的充宽带 -->
+		           	     	   	     <div>
+		           	     	   	     	<input type="text" value="电信/城市">
+		           	     	   	     	<input type="text" value="请输入手机号">
+		           	     	   	     	<input type="text" value="50元">
+		                                <ul><li>售价 ￥ <p>49-49.8</p></li></ul>
+		                                <span>立即充值</span>
+		           	     	   	     </div>
+		           	     	   </div>
+		           	     	   <!-- 设置X关闭选项 -->
+		           	     	   <p class="dlu_X">X</p>
+           	     	   </div>
+           	     </div>
+           </div>
+           <!-- 设置主题最后一栏 -->
+           <div class="main_toutiao">
+           	     <img src="img/TB1KbhkbUgQMeJjy0FeXXXOEVXa-129-26.png" style="margin-left: 20px;margin-top: 16px;display:inline-block">
+           	     <p>让你的生活更有趣</p>
+           	     <!-- 设置轮播图的块 -->
+           	     <div class="toutiao_kuai kuailun1">
+           	     	<img src="img/TB2dO2il5CYBuNkSnaVXXcMsVXa_!!626285271-2-daren.png_120x120q90.jpg__jiji.jpg">
+
+           	     	<h3>什么样的约会发型最撩人</h3>
+           	     	<a href="#">更多></a>
+           	     	<p class="tianmao_p">甜蜜约会，怎么能让头发干枯毛躁没有光泽？不管穿的多美，发型不好看也是不够吸晴。</p>
+           	     </div>
+           	     <!-- 设置轮播图的块2 -->
+           	     <div class="toutiao_kuai kuailun2">
+           	     	<img src="img/TB1gLjYuDtYBeNjy1XdXXXXyVXa-1125-495.jpg_120x120q90.jpg__pp.jpg">
+
+           	     	<h3>极限男人帮限定私服公益拍卖，了解一下？</h3>
+           	     	<a href="#">更多></a>
+           	     	<p class="tianmao_p">阿里拍卖联合东方卫视,优酷,阿里巴巴公益,中国扶贫基金会共同发起"边看边拍"公益拍卖活动啦。孙红雷,黄渤张艺兴黄磊罗志祥王迅签名定制"款复古运</p>
+           	     </div>
+
+           	     <!-- 设置轮播图的块 -->
+           	     <div class="toutiao_kuai kuailun3">
+           	     	<img src="img/TB2ctZVl3KTBuNkSne1XXaJoXX.jpg">
+
+           	     	<h3>618新技能，以旧换新享优惠</h3>
+           	     	<a href="#">更多></a>
+           	     	<p class="tianmao_p">这次天猫618，不仅仅是手机数码，家中那些不用的家用电器，买完就没弹过的钢琴，吉他，甚至背腻了过时了的奢侈品包包，孩子小时候用过的婴儿推车，都可以派上大用场</p>
+           	     </div>
+           </div>
+
+           <!-- 设置图标二维码 -->
+            <div class="main_saomiao">
+                <h3 class="APP_h3">阿里APP
+                    <a href="#">更多></a>
+                </h3>
+            	 <ul>
+            	 	<li><img src="img/2018-06-20_095831.jpg">
+                        <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_112347.jpg">
+                        	<p>扫一扫淘宝</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100259.jpg">
+                        <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_112615.jpg">
+                        	<p>扫一扫天猫</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100447.jpg">
+                        <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_112844.jpg">
+                        	<p>扫一扫聚划算</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100545.jpg">
+                         <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113255.jpg">
+                        	<p>扫一扫支付宝</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100639.jpg">
+                         <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113341.jpg">
+                        	<p>扫一扫旺旺</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100731.jpg">
+                         <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113426.jpg">
+                        	<p>扫一扫钉钉</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100824.jpg">
+                        <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113528.jpg">
+                        	<p>扫一扫飞猪旅行</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_100919.jpg">
+                         <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113614.jpg">
+                        	<p>扫一扫优酷</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_101018.jpg">
+                        <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113655.jpg">
+                        	<p>扫一扫土豆</p>
+                        </div>
+            	 	</li>
+            	 	<li><img src="img/2018-06-20_101118.jpg">
+                         <div class="saomiao_ewm">
+                        	<img src="img/2018-06-20_113840.jpg">
+                        	<p>扫一扫淘票票</p>
+                        </div>
+            	 	</li>
+            	 </ul>
+            </div>
+
+            <!-- 设置生活研究所 -->
+            <div class="main_shenghuo">
+            	  <img src="img/TB1o60degoQMeJjy1XaXXcSsFXa-180-48.png" style="width: 107px;;margin-left: 25px;
+                          margin-top: 16px;">
+                   <p class="shenghuo_p">发现属于你的生活方式</p>
+                   <ul>
+                   	 <li>
+                   		<div class="shuo_lix">
+                   			<img src="img/TB2r.STsmtYBeNjSspkXXbU8VXa_!!1830800756-0-daren.jpg_80x80q90 - 222.jpg" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">就爱宽松感</h4>
+                   		<p  class="sh_p1">不骨感才性感</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气2400032
+                   		</p>
+                   		
+                   	</li>
+                   	<li>
+                   		<div class="shuo_lix">
+                   			<img src="img/TB21Zxsaf6H8KJjy0FjXXaXepXa_!!0-juitemmedia.jpg" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">瑜伽修炼者</h4>
+                   		<p  class="sh_p1">身心灵合一</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气50348
+                   		</p>
+                   	</li>
+                   	<li>
+                   		<div class="shuo_lix">
+                   			<img src="img/TB2FiOtoVXXXXc7XXXXXXXXXXXX_!!1710482305yao.png" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">囤货小当家</h4>
+                   		<p  class="sh_p1">会囤会生活</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气482546
+                   		</p>
+                   	</li>
+                   	<li>
+                   		                  		<div class="shuo_lix">
+                   			<img src="img/TB2o_FEnDnI8KJjSszgXXc8ApXa_!!.jpg" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">超级大学生</h4>
+                   		<p  class="sh_p1">我的校园生活</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气3640841
+                   		</p>
+                   	</li>
+                   	<li>
+                   		                  		<div class="shuo_lix">
+                   			<img src="img/mimi1uKOSBuNjy0FdXXbDnVXa_!!49-0-luban.jpg" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">钓鱼翁</h4>
+                   		<p  class="sh_p1">懂行的都说好</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气224858
+                   		</p>
+                   	</li>
+                   	<li>
+                   		                  		<div class="shuo_lix">
+                   			<img src="img/TB2r.STsmtYBeNjSspkXXbU8VXa_!!1830800756-0-daren.jpg_80x80q90 - 222.jpg" style=" margin-top: 10px;margin-left: 10px;" display="inline-block">
+                   		</div>
+                  
+                   		<h4 class="sh_h4">吃货的后裔</h4>
+                   		<p  class="sh_p1">翻滚吧美食君</p>
+                   		<p class="sh_p2">
+                   			<img src="img/xin.png" style="width:10px" display="inline-block">
+                               人气482546
+                   		</p>
+                   	</li>
+                  </ul>
+            </div>
+
+            <!-- 设置有好货部分 -->
+            <div class="main_you floor">
+            	 <img src="img/TB1tqpnegMPMeJjy1XcXXXpppXa-148-48.png"style="width: 81px;margin-top: 5px;margin-left:13px;display:inline-block">
+            	 <img src="img/erweima22.png"style="width: 21px;display:inline-block;margin-top:9px;">
+            	 <p class="you_p1">与品质生活不起而遇</p>
+            	 <a href="#">换一换</a>
+
+            	 <!-- 设置有好货商品栏 -->
+            	 <ul>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/TB2C2QBaYSYBuNjSspfXXcZCpXa_!!3040963479.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p1">伊甸园桑蚕丝小方巾</p>
+            	 		<p class="youhuo_p2">精选的桑蚕丝搭载高级的印</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			0人说好
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/zhuozi.jpg">
+            	 		</div>
+            	 		<p class="youhuo_p1">柳铭阁红木餐桌</p>
+            	 		<p class="youhuo_p2">采用传统囊结构，稳固结</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			1人说好
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/banxiu.jpg">
+            	 		</div>
+            	 		<p class="youhuo_p1">PP彩色泼墨骷髅头短袖</p>
+            	 		<p class="youhuo_p2">彩色涂鸦泼墨一面，吸睛又</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			0人说好
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/kukukuku.jpg">
+            	 		</div>
+            	 		<p class="youhuo_p1">Julius修身小脚牛仔裤</p>
+            	 		<p class="youhuo_p2">酷在你身，Julius黑色牛仔</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			1人说好
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/yiyiyiyi.jpg">
+            	 		</div>
+            	 		<p class="youhuo_p1">Valentino星空烟花刺绣</p>
+            	 		<p class="youhuo_p2">神秘宇宙气息的星空烟花刺</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			0人说好
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/ywywyw.jpg">
+            	 		</div>
+            	 		<p class="youhuo_p1">Suitsupply蓝色平纹西装</p>
+            	 		<p class="youhuo_p2">经典的西装式版型剪裁干净</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/xiaolian.png">
+            	 			1人说好
+            	 		</p>
+            	 	</li>
+            	 </ul>
+          </div>
+           <!-- 设置爱逛街部分 -->
+            <div class="main_you aig">
+            	 <img src="img/TB1UNX2bSFRMKJjy0FhXXX.xpXa-112-46.png"style="width: 81px;margin-top: 5px;margin-left:13px;display:inline-block">
+            	 <p class="you_p1">献给聪明可爱的你</p>
+            	 <a href="#">更多</a>
+
+            	 <!-- 设置爱逛街商品栏 -->
+            	 <ul>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/AAA2TDrQbsnI8KJjSspeXXcwIpXa_!!1994256139-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">德国贝尔斯顿榨油机全自动智能家用商用正品冷热</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/TB1KFP1JFXXXXalXXXX7WcCNVXX-400-400.png_30x30.jpg">
+            	 			潮流女孩girl
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/www2sGI0mvNNTKJjSspfXXbXIFXa_!!45527326-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">抢100元券阿根廷红虾(L1)2kg海鲜 水产进口</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/TB2cLMFeYlmpuFjSZFlXXbdQXXa_!!0-mytaobao.jpg_30x30.jpg">
+            	 			放飞自我的兔小姐
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/C2a.07krSYBuNjSspfXXcZCpXa_!!2940132060.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">湛江特产瑶柱干贝宝宝煮粥煲汤生鲜扇贝丁海</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/TB2cLMFeYlmpuFjSZFlXXbdQXXa_!!0-mytaobao.jpg_30x30.jpg">
+            	 			放飞自我的兔小姐
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/11112LtNaap6.F1JjSZFpXXcZjXXa_!!648593569.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">顺丰大希地菲力牛排15片送酱15包一副刀叉</p>
+            	 		<p class="youhuo_p3">
+                            <img src="img/TB1KFP1JFXXXXalXXXX7WcCNVXX-400-400.png_30x30.jpg">
+            	 			潮流女孩girl
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/222TB2BT5bqpGWBuNjy0FbXXb4sXXa_!!1673122865.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">纱布幼儿园宝宝夏季空调被子婴儿童小薄款夏天午</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/TB2m9kknYsTMeJjSszdXXcEupXa_!!2218891225-0-beehive-scenes.jpg_30x30.jpg">
+            	 			潮范时光机
+            	 		</p>
+            	 	</li>
+            	 	<li>
+            	 		<div class="yhuo_tp">
+            	 			<img src="img/333TB2lGiUlvBNTKJjSszeXXcu2VXa_!!2838002875-0-beehive-scenes.jpg_180x180xzq90.jpg_.webp">
+            	 		</div>
+            	 		<p class="youhuo_p2">贝亲润肤油200ml新生婴儿触按摩油 宝宝儿童</p>
+            	 		<p class="youhuo_p3">
+            	 			<img src="img/TB2cLMFeYlmpuFjSZFlXXbdQXXa_!!0-mytaobao.jpg_30x30.jpg">
+            	 			放飞自我的兔小姐
+            	 		</p>
+            	 	</li>
+            	 </ul>
+            </div>
+
+            <!-- 设置淘抢购样式 -->
+            <div class="main_taoqiang">
+            	 <img src="img/TB1UfJnb3oQMeJjy0FpXXcTxpXa-160-44.png"style="width: 99px;margin-top: 10px;margin-left: 10px;">
+            	 <!-- 设置倒计时 -->
+                 <div class="tao_dajis1"></div>
+                 <div class="tao_dajis2"></div>
+                 <div class="tao_dajis3"></div>
+
+                 <a href="#" class="taoq_a1">换一换</a>
+                 <a href="#" class="taoq_a2">更多></a>
+
+                 <ul>
+		            <li>
+		            	<img src="img/TB2r2s_h8smBKNjSZFsXXaXSVXa_!!0-juitemmedia.jpg_180x180q90.jpg_.webp">
+		            	<h4 class="biqiang1">必抢！伊索爆款防水镂空机械表</h4>
+		            	<p class="biqiang2">父亲节送礼平时398</p>
+		            	<p class="biqiang3">￥298</p>
+		            	<p class="biqiang4">￥3580.00</p>
+		            </li>
+		            <li>
+		            	<img src="img/juchenshimianmo.jpg">
+		            	<h4 class="biqiang1">必抢！伊索爆款防水镂空机械表</h4>
+		            	<p class="biqiang2">父亲节送礼平时398</p>
+		            	<p class="biqiang3">￥69.9</p>
+		            	<p class="biqiang4">￥3580.00</p>
+		            </li>
+		            <li>
+		            	<img src="img/chengzhongjiqi.jpg">
+		            	<h4 class="biqiang1">必抢！伊索爆款防水镂空机械表</h4>
+		            	<p class="biqiang2">父亲节送礼平时398</p>
+		            	<p class="biqiang3">￥69.8</p>
+		            	<p class="biqiang4">￥3580.00</p>
+		            </li>
+                 </ul>
+            </div>
+
+           <img src="img/TB1fGn9ouySBuNjy1zdSutPxFXa.jpg" class="yanjing_img">
+
+           <!-- 设置每日好店的样式 -->
+           <div class="main_haodian floor">
+           	     <img src="img/TB1_EXwb3oQMeJjy0FpXXcTxpXa-162-48.png" class="hd_img">
+           	     <p class="hd_p1">发现深藏的好店</p>
+           	     <a href="#">更多</a>
+
+           	     <ul>
+           	     <li>
+           	     	<h3>今日推荐</h3>
+           	     	<p>暂无店铺评价</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/xiaobaobaobao.jpg">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/xiaobeixie.jpg">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/haoxiangshousi.jpg">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>女神が店</h3>
+           	     	<p>暂无店铺评价</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/meinv1.jpg">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/meinv2.jpg">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/meinv3.jpg">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>男人帮</h3>
+           	     	<p>暂无店铺评价</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/nanren1.jpg">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/nanren2.jpg">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/nanren2.jpg">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>有腔调</h3>
+           	     	<p>暂无店铺评价</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/meinv4.jpg">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/meinv5.jpg">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/meinv6.jpg">
+           	     	</div>
+           	     </li>
+           	    </ul>
+           </div>
+
+           <!-- 设置淘宝直播样式 -->
+           <div class="main_zhibo">
+           	    <img src="img/TB1cmpCb3MPMeJjy1XdXXasrXXa-204-42.png" class="hd_img">
+           	     <p class="hd_p1">你的爱豆直播等你哟</p>
+
+           	      <ul>
+           	     <li>
+           	     	<h3>蜕变de大码妞</h3>
+           	     	<p>5224观看</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/TB2gLi9xuSSBuNjy0FlXXbBpVXa_!!0-dgshop.jpg_180x180q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/TB2Vt5lr25TBuNjSspcXXbnGFXa_!!728211821.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/TB2Oxt8oMaTBuNjSszfXXXgfpXa_!!728211821.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>福多多婴童店</h3>
+           	     	<p>1951观看</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/TB21DO4xuySBuNjy1zdXXXPxFXa_!!0-dgshop.jpg_180x180q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/TB2gui4q1uSBuNjSsplXXbe8pXa_!!84209327.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/TB2KwxideySBuNjy1zdXXXPxFXa_!!84209327.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>小晶yu</h3>
+           	     	<p>11209观看</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/TB2y5ywxStYBeNjSspkXXbU8VXa_!!0-dgshop.jpg_180x180q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/TB2vRVmhQZmBKNjSZPiXXXFNVXa_!!71460541.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/TB2LiTlrGSWBuNjSsrbXXa0mVXa_!!3029986531.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     </li>
+           	     <li>
+           	     	<h3>CC家高端独立</h3>
+           	     	<p>15447观看</p>
+           	     	<div class="jinri_big">
+           	     		<img src="img/TB2TDNauY1YBuNjSszhXXcUsFXa_!!0-dgshop.jpg_180x180q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small1">
+           	     		<img src="img/TB2fQwSrxWYBuNjy1zkXXXGGpXa_!!3411290505.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     	<div class="jinri_small2">
+           	     		<img src="img/TB2FZaBtr5YBuNjSspoXXbeNFXa_!!3411290505.jpg_100x100q90.jpg_.webp">
+           	     	</div>
+           	     </li>
+           	    </ul>
+           </div>
+           
+           <!-- 设置时尚爆料王 -->
+           <div class="main_baoliao">
+           	     <p>| 时尚爆料王</p>
+
+           	     <ul>
+           	     	<li>
+           	     	      <h4>腔调</h4>
+           	     	      <p>全球创意设计师平台</p>
+           	     	      <div class="baoliao_tp1">
+           	     	      	 <img src="img/heiyifu.jpg">
+           	     	      </div>
+           	     	      <div class="baoliao_tp2">
+           	     	      	<img src="img/lianyiqun11.jpg">
+           	     	      </div>
+           	     	</li>
+           	     	<li>
+           	     		  <h4>全球购</h4>
+           	     	      <p>探索全球美好生活</p>
+           	     	      <div class="baoliao_tp1">
+           	     	      	 <img src="img/quanqiugou1.jpg">
+           	     	      </div>
+           	     	      <div class="baoliao_tp2">
+           	     	      	<img src="img/quanqiugou2.jpg">
+           	     	      </div>
+           	     	</li>
+           	     	<li>
+           	     		  <h4>魅力惠</h4>
+           	     	      <p>奢品好物立即购</p>
+           	     	      <div class="baoliao_tp1">
+           	     	      	 <img src="img/gaogenxie1.jpg">
+           	     	      </div>
+           	     	      <div class="baoliao_tp2">
+           	     	      	<img src="img/xiangshui1.jpg">
+           	     	      </div>
+           	     	</li>
+           	     </ul>
+           </div>
+           <div class="main_xinpin">
+           	    <img src="img/TB17IgbKpXXXXcvXXXXSutbFXXX.jpg">
+           </div>
+
+           <!-- 设置品质生活家 -->
+           <div class="main_pinzhi floor">
+           	    <p>| 品质生活家</p>
+           	    <ul>
+           	    	<li>
+           	    		<div class="pinzhi_tu1">
+           	    			<img src="img/TB1hJ2KX6ihSKJjy0FlXXadEXXa-254-318.png">
+           	    		</div>
+           	    		<div class="pinzhi_tu2">
+           	    		    <h4>极有家</h4>
+           	    		    <p>过我想要的生活</p>
+           	    			<img src="img/zhichou.jpg">
+           	    		</div>
+           	    		<div class="pinzhi_tu2 pintu3">
+           	    		    <h4>淘宝花鸟</h4>
+           	    		    <p>园艺宠物爱好者集中营</p>
+           	    			<img src="img/dapancai.jpg">
+           	    		</div>
+           	    		<div class="pinzhi_tu2 pintu4">
+           	    			<h4>聚名品</h4>
+           	    		    <p>甄选大牌尖货</p>
+           	    			<img src="img/hongjiu.jpg">
+           	    		</div>
+           	    	</li>
+           	    	<li>
+           	    		<div class="pinzhi_baob">
+           	    			<h3>亲宝贝
+                                  <p>享受育儿新方式</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/dounaifen.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/wazi.jpg"></div>
+           	    		</div>
+           	    		<div class="pinzhi_baob yuer1">
+           	    			<h3>淘宝教育
+                                  <p>给你未来的学习体验</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/maozizizii.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/bihe.jpg"></div>
+           	    		</div>
+           	    		<div class="pinzhi_baob yuer2">
+           	    			<h3>特色中国
+                                  <p>地道够味</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/haoxiangnongyao.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/mogu.jpg"></div>
+           	    		</div>
+           	    	</li>
+           	    </ul>
+           </div>
+
+           <!-- 设置特色玩味控 -->
+           <div class="main_pinzhi wanwei">
+           	    <p>| 特色玩味控</p>
+           	    <ul>
+           	    	<li>
+           	    		<div class="pinzhi_tu1">
+           	    			<img src="img/TB1GnbMX8TH8KJjy0FiXXcRsXXa-254-318.jpg">
+           	    		</div>
+           	    		<div class="pinzhi_tu2">
+           	    		    <h4>淘宝众筹</h4>
+           	    		    <p>脑洞创意坊</p>
+           	    			<img src="img/jidandan.jpg">
+           	    		</div>
+           	    		<div class="pinzhi_tu2 pintu3">
+           	    		    <h4>中国质造</h4>
+           	    		    <p>懂得好生活</p>
+           	    			<img src="img/shuangrenchuang.jpg">
+           	    		</div>
+           	    		<div class="pinzhi_tu2 pintu4">
+           	    			<h4>阿里汽车</h4>
+           	    		    <p>冰点低价</p>
+           	    			<img src="img/qichehhhh.jpg">
+           	    		</div>
+           	    	</li>
+           	    	<li>
+           	    		<div class="pinzhi_baob">
+           	    			<h3>淘宝动漫
+                                  <p>童年经典美漫经典</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/haoxiangxianglian.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/bianingjingang.jpg"></div>
+           	    		</div>
+           	    		<div class="pinzhi_baob yuer1">
+           	    			<h3>淘宝文创
+                                  <p>潮流文创聚集地</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/xiaoshuijing.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/xiaojinjinbi.jpg"></div>
+           	    		</div>
+           	    		<div class="pinzhi_baob yuer2">
+           	    			<h3>淘宝电场
+                                  <p>科技潮玩看我</p>
+           	    			</h3>
+           	    			<div class="baobei_tu1"><img src="img/erji.jpg"></div>
+           	    			<div class="baobei_tu2"><img src="img/shoushouji.jpg"></div>
+           	    		</div>
+           	    	</li>
+           	    </ul>
+           </div>
+
+           <!-- 设置实惠专业户 -->
+           <div class="main_shihui floor">
+           	    <h3>| 实惠专业户</h3>
+           	    <ul>
+           	    	<li>
+           	    		<h4>天天特价</h4>
+           	    		<img src="img/TB2ARLRygmTBuNjy1XbXXaMrVXa_!!0-juitemmedia.jpg_180x180q90.jpg_.webp" class="shihui_img">
+           	    		<p class="shihui_p1">优惠好货</p>
+           	    		<p class="shihui_p2">特价专区</p>
+           	    		<p class="shihui_p3">全国包邮</p>
+
+           	    	</li>
+           	    	<li>
+           	    		<h4>淘金币</h4>
+           	    		<img src="img/TB2zkVvqNxmpuFjSZFNXXXrRXXa_!!173-2-yamato.png_180x180q90.jpg_.webp" class="shihui_img">
+           	    		<p class="shihui_p1">异域风味</p>
+           	    		<p class="shihui_p2">台湾美食</p>
+           	    		<p class="shihui_p3">签到领金币</p>
+           	    	</li>
+           	    	<li>
+           	    		<h4>量贩团</h4>
+           	    		<img src="img/TB2JedzprsTMeJjSszhXXcGCFXa_!!92-2-luban.png_180x180q90.jpg_.webp" class="shihui_img">
+           	    		<p class="shihui_p1">大包装囤货</p>
+           	    		<p class="shihui_p2">超值付邮领</p>
+           	    		<p class="shihui_p3">0.01疯抢</p>
+           	    	</li>
+           	    	<li>
+           	    		<h4>品牌outlets</h4>
+           	    		<img src="img/TB2bwGdaXHM8KJjSZFwXXcibXXa_!!53-2-luban.png_180x180q90.jpg_.webp" class="shihui_img">
+           	    		<p class="shihui_p1">免息购大牌</p>
+           	    		<p class="shihui_p2">甄选尖货</p>
+           	    		<p class="shihui_p3">365天超低价</p>
+           	    	</li>
+           	    	<li>
+           	    		<h4>阿里试用</h4>
+           	    		<img src="img/TB2e.KvXqmgSKJjSspiXXXyJFXa_!!135-2-luban.png_180x180q90.jpg_.webp" class="shihui_img">
+           	    		<p class="shihui_p1">0元免费试</p>
+           	    		<p class="shihui_p2">大牌新品</p>
+           	    		<p class="shihui_p3">先用后买</p>
+           	    	</li>
+           	    </ul>
+           </div>
+
+           <!-- 设置热卖单品 -->
+           <div class="main_remai">
+           	    <h3>| 热卖单品</h3>
+           	    <ul class="remai_ul1">
+           	    	<li>客厅灯</li>
+           	    	<li>床垫</li>
+           	    	<li>浴室柜</li>
+           	    	<li>沙发</li>
+           	    	<li>电脑椅</li>
+           	    	<li>鞋柜</li>
+           	    	<li>男内裤</li>
+           	    	<li>窗帘</li>
+           	    	<li>茶几</li>
+           	    	<li>椅子</li>
+           	    	<li>衣柜</li>
+           	    	<li>拉杆箱</li>
+           	    	<li>防晒衣</li>
+           	    	<li>电脑桌</li>
+           	    	<li>电风扇</li>
+           	    	<li>蚊帐</li>
+           	    	<li>粽子</li>
+           	    	<li>凉席</li>
+           	    	<li>真丝裙</li>
+           	    	<li>男包</li>
+           	    	<li>风扇</li>
+           	    	<li>面膜</li>
+           	    	<li>旗袍</li>
+           	    	<li>阔腿裤</li>
+           	    	<li>牛仔裤</li>
+           	    </ul>
+           	    <ul class="remai_ul2">
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    	<li>
+           	    		<img src="img/TB29QnkjxWYBuNjy1zkXXXGGpXa_!!0-saturn_solar.jpg_200x200.jpg_.webp">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	    	</li>
+           	    </ul>
+           	    <img src="img/TB1W7GQecuYBuNkSmRySuwA3pXa (1).jpg">
+           	    <img src="img/TB1dWRml79WBuNjSspeSuuz5VXa.jpg">
+           	    <img src="img/TB1FxGawKSSBuNjy0FlSuvBpVXa.jpg">
+           </div>
+
+           <!-- 设置猜你喜欢 -->
+           <div class="main_caini floor">
+           	     <h3>| 猜你喜欢</h3>
+           	     <ul>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li>
+           	     		<img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p>
+           	     	</li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     	<li><img src="img/meinv6666.jpg">
+           	    		<p class="remai_p1">又一杰作2018年度最难做的战袍级别超长款毛</p>
+
+           	    		<h6>评价0  收藏2024</h6>
+           	    		<p class="remai_p2">￥1980</p>
+           	    		<p class="remai_p3">月销65笔</p></li>
+           	     </ul>
+           </div>
+            
+            <!-- 设置end部分 -->
+           <div class="main_end">
+                 <ul>
+                 	<li class="end_ziti2"></li>
+                 	<li class="end_ziti">END</li>
+                 	<li class="end_ziti2"></li>
+                 </ul>
+                 <div class="end_baz">
+                 	<img src="img/2018-06-21_131959.jpg">
+                 	<h3>消费者保障</h3>
+
+                 	<ul>
+                 		<li><a href="#">保障范围</a></li>
+                 		<li><a href="#">退货退款流程</a></li>
+                 		<li><a href="#">服务中心</a></li>
+                 		<li><a href="#">更多特色服务</a></li>
+                 	</ul>
+                 </div>
+                 <div class="end_baz">
+                 	<img src="img/2018-06-21_134534.jpg">
+                 	<h3>新手上路</h3>
+
+                 	<ul>
+                 		<li><a href="#">新手专区</a></li>
+                 		<li><a href="#">消费提醒</a></li>
+                 		<li><a href="#">交易安全</a></li>
+                 		<li><a href="#">24小时在线帮助</a></li>
+                 		<li><a href="#">2免费开店</a></li>
+                 	</ul>
+                 </div>
+                 <div class="end_baz">
+                 	<img src="img/2018-06-21_134620.jpg">
+                 	<h3>付款方式</h3>
+
+                 	<ul>
+                 		<li><a href="#">快捷支付</a></li>
+                 		<li><a href="#">信用卡</a></li>
+                 		<li><a href="#">余额宝</a></li>
+                 		<li><a href="#">蚂蚁花呗</a></li>
+                 		<li><a href="#">货到付款</a></li>
+                 	</ul>
+                 </div>
+                  <div class="end_baz">
+                 	<img src="img/2018-06-21_134705.jpg">
+                 	<h3>淘宝特色</h3>
+
+                 	<ul>
+                 		<li><a href="#">手机淘宝</a></li>
+                 		<li><a href="#">旺旺/旺信</a></li>
+                 		<li><a href="#">大众审评</a></li>
+                 	</ul>
+                 </div>
+           </div>
+	</div>
+
+	<!-- 设置尾部 -->
+	<footer id="footer">
+		  <div class="footer_ziti">
+		  	    <ul class="footer_ul1">
+		  	    	<li><a href="#">阿里巴巴集团</a></li>
+		  	    	<li><a href="#">淘宝网</a></li>
+		  	    	<li><a href="#">天猫</a></li>
+		  	    	<li><a href="#">聚划算</a></li>
+		  	    	<li><a href="#">全球速卖通</a></li>
+		  	    	<li><a href="#">阿里巴巴国际交易市场</a></li>
+		  	    	<li><a href="#">1688</a></li>
+		  	    	<li><a href="#">阿里妈妈</a></li>
+		  	    	<li><a href="#">飞猪</a></li>
+		  	    	<li><a href="#">阿里云计算</a></li>
+		  	    	<li><a href="#">AliOS</a></li>
+		  	    	<li><a href="#">阿里通信</a></li>
+		  	    	<li><a href="#">一淘</a></li>
+		  	    	<li><a href="#">万网</a></li>
+		  	    	<li><a href="#">高德</a></li>
+		  	    	<li><a href="#">UC</a></li>
+		  	    	<li><a href="#">友盟</a></li>
+		  	    	<li><a href="#">虾米</a></li>
+		  	    	<li><a href="#">大麦网</a></li>
+		  	    	<li><a href="#">钉钉</a></li>
+		  	    	<li><a href="#">支付宝</a></li>
+		  	    	<li><a href="#">优酷</a></li>
+		  	    	<li><a href="#">土豆</a></li>
+		  	    	<li><a href="#">阿里健康</a></li>
+		  	    	<li><a href="#">阿里影业</a></li>
+		  	    	<li><a href="#">阿里体育</a></li>
+		  	    	<li><a href="#">网商银行</a></li>
+		  	    </ul>
+
+		  	    <ul class="footer_ul2">
+		  	    	<li><a href="#">关于淘宝</a></li>
+		  	    	<li><a href="#">合作伙伴</a></li>
+		  	    	<li><a href="#">营销中心</a></li>
+		  	    	<li><a href="#">廉政举报</a></li>
+		  	    	<li><a href="#">联系客服</a></li>
+		  	    	<li><a href="#">开放平台</a></li>
+		  	    	<li><a href="#">诚征英才</a></li>
+		  	    	<li><a href="#">联系我们</a></li>
+		  	    	<li><a href="#">网站地图</a></li>
+		  	    	<li><a href="#">法律声明及隐私权政策</a></li>
+		  	    	<li><a href="#">知识产权</a></li>
+		  	    	<li><a href="#">C2003-现在 Taobao.com 版权所有</a></li>
+		  	    	<li><a href="#">网络文化经营许可证：浙网文[2016]0268-027号</a></li>
+		  	    	<li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+		  	    	<li><a href="#">信息王利传授视听许可证：1109364号</a></li>
+		  	    	<li><a href="#">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</a></li>
+		  	    	<li><a href="#"><img src="img/2018-06-21_143246.jpg">浙公网安备33010002000078号</a></li>
+		  	    	<li><a href="#">(浙)网械 平台备字[2018]第00004号</a></li>
+		  	    	<li><a href="#">出版物网络交易平台服务经营备案证：新出发浙备字第002号</a></li>
+		  	    	<li><a href="#">互联网药品信息服务资格证书编号：(浙)-经营性-2018-0010</a></li>
+		  	    </ul>
+
+		  	    <img src="img/2018-06-21_144547.jpg">
+		  </div>
+	</footer>
+
+	<!-- 设置楼层显示 -->
+	<ul class="judui">
+	<li>爱逛好货</li>
+	<li>好店直播</li>
+	<li>品牌特色</li>
+	<li>实惠热卖</li>
+	<li>猜你喜欢</li>
+    </ul>
+
+    <a href="#" id="body_a">返回顶部</a>
+</body>
+</html>

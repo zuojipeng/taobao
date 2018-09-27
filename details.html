@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>复古详情查看</title>
+	<link rel="stylesheet" type="text/css" href="details.css">
+	<script src='jquery-1.8.3.min.js'></script>
+	<script type="text/javascript" src="details.js" defer></script>
+	<script src="ajax3.0.js"></script>
+</head>
+<body>
+	<header id="header">
+				<!-- 第一个导航栏 -->
+		<div class="nav">
+			<ul class="nav_one">
+				<li class="navli_one">中国大陆  ∨
+                     <!-- 对应中国大陆 -->
+		             <ul class="diqu">
+		    	            <p>全球</p>
+		    	            <p>中国大陆</p>
+		    	            <p>香港</p>
+		    	            <p>台湾</p>
+		    	            <p>澳门</p>
+		    	            <p>韩国</p>
+		    	            <p>马来西亚</p>
+		    	            <p>澳大利亚</p>
+		    	            <p>新加坡</p>
+		    	            <p>新西兰</p>
+		    	            <p>加拿大</p>
+		    	            <p>美国</p>
+		    	            <p>日本</p>
+		              </ul>
+				</li>
+				<li><a href="Taobaozhuce.html">亲，请登录</a></li>
+				<li><a href="Taobaodl.html">免费注册</a></li>
+				<li><a href="#">手机逛淘宝</a></li>
+			</ul>
+		<!-- 第二个导航栏 -->
+			<ul class="nav_two">
+				<li class="navli_two">我的淘宝  ∨
+				<!-- 对应我的淘宝 -->
+                      <ul class="baobei">
+                      	<li><a href="#">已买到的宝贝</a></li>
+                      	<li><a href="#">我的足迹</a></li>
+                      </ul>
+				</li>
+				<li>购物车  ∨</li>
+				<li class="navli_three">收藏夹  ∨
+				      <!-- 对应的收藏夹 -->
+                      <ul class="shoucang">
+                      	<li><a href="#">收藏的宝贝</a></li>
+                      	<li><a href="#">收藏的店铺</a></li>
+                      </ul>
+				</li>
+				<li>商品分类</li>
+			</ul>
+		<!-- 第三个导航栏 -->
+		    <ul class="nav_three">
+				<li class="navli_four">卖家中心  ∨
+				<!-- 设置对应的卖家中心 -->
+                      <ul class="maijia">
+                      	<li><a href="#">免费开店</a></li>
+                      	<li><a href="#">已卖出的宝贝</a></li>
+                      	<li><a href="#">出售中的宝贝</a></li>
+                      	<li><a href="#">卖家服务市场</a></li>
+                      	<li><a href="#">卖家培训中心</a></li>
+                      	<li><a href="#">体检中心</a></li>
+                      	<li><a href="#">问网友</a></li>
+                      </ul>
+				</li>
+				<li class="navli_five">联系客服  ∨
+				<!-- 设置客服对应选项卡 -->
+                     <ul class="kefu">
+                     	<li><a href="#">消费者客服</a></li>
+                     	<li><a href="#">卖家客服</a></li>
+                     </ul>
+				</li>
+				<li class="navli_six">网站导航  ∨
+                      <!-- 设置网站导航的选项卡 -->
+                    <div class="wangzhan">
+                      <!-- 第一个主题市场 -->
+                     	<ul class="wz wzhan_one">
+                     		<h3>主题市场</h3>
+                     		<ul class="wzhan_one1">
+                     			<li><a href="#">女装</a></li>
+                     			<li><a href="#">箱包</a></li>
+                     			<li><a href="#">手机</a></li>
+                     			<li><a href="#">手表</a></li>
+                     			<li><a href="#">游戏</a></li>
+                     			<li><a href="#">鲜花</a></li>
+                     			<li><a href="#">装修</a></li>
+                     			<li><a href="#">汽车</a></li>
+                     			<li><a href="#">教育</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one2">
+                     			<li><a href="#">男装</a></li>
+                     			<li><a href="#">婴童</a></li>
+                     			<li><a href="#">美妆</a></li>
+                     			<li><a href="#">运动</a></li>
+                     			<li><a href="#">动漫</a></li>
+                     			<li><a href="#">宠物</a></li>
+                     			<li><a href="#">建材</a></li>
+                     			<li><a href="#">二手车</a></li>
+                     			<li><a href="#">卡券</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one3">
+                     			<li><a href="#">内衣</a></li>
+                     			<li><a href="#">家电</a></li>
+                     			<li><a href="#">珠宝</a></li>
+                     			<li><a href="#">户外</a></li>
+                     			<li><a href="#">影视</a></li>
+                     			<li><a href="#">农资</a></li>
+                     			<li><a href="#">家居</a></li>
+                     			<li><a href="#">办公</a></li>
+                     			<li><a href="#">本地</a></li>
+                     		</ul>
+                     		<ul class="wzhan_one4">
+                     			<li><a href="#">鞋靴</a></li>
+                     			<li><a href="#">数码</a></li>
+                     			<li><a href="#">眼镜</a></li>
+                     			<li><a href="#">乐器</a></li>
+                     			<li><a href="#">美食</a></li>
+                     			<li><a href="#">房产</a></li>
+                     			<li><a href="#">百货</a></li>
+                     			<li><a href="#">定制</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_two">
+                     		<h3>特色市场</h3>
+                            <!-- 第二个特色市场 -->
+                     		<ul class="wzhan_two1">
+                     			<li><a href="#">iFashion</a></li>
+                     			<li><a href="#">全球购</a></li>
+                     			<li><a href="#">星店</a></li>
+                     			<li><a href="#">拍卖会</a></li>
+                     			<li><a href="#">飞猪</a></li>
+                     			<li><a href="#">农资</a></li>
+                     			<li><a href="#">俪人购</a></li>
+                     			<li><a href="#">全球精选</a></li>
+                     			<li><a href="#">量贩团</a></li>
+                     		</ul>
+                     		<ul class="wzhan_two2">
+                     			<li><a href="#">爱逛街</a></li>
+                     			<li><a href="#">腔调</a></li>
+                     			<li><a href="#">极有家</a></li>
+                     			<li><a href="#">淘宝众筹</a></li>
+                     			<li><a href="#">亲宝贝</a></li>
+                     			<li><a href="#">天天特价</a></li>
+                     			<li><a href="#">聚名品</a></li>
+                     			<li><a href="#">非常大牌</a></li>
+                     			<li><a href="#">阿里翻译</a></li>
+                     		</ul>
+                     		<ul class="wzhan_two3">
+                     			<li><a href="#">美妆秀</a></li>
+                     			<li><a href="#">淘女郎</a></li>
+                     			<li><a href="#">特色中国</a></li>
+                     			<li><a href="#">中国制造</a></li>
+                     			<li><a href="#">闲鱼</a></li>
+                     			<li><a href="#">Outlets</a></li>
+                     			<li><a href="#">淘抢购</a></li>
+                     			<li><a href="#">适用</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_three">
+                     		<h3>阿里 APP</h3>
+                            <!-- 第三个阿里 APP -->
+                     		<ul class="wzhan_three1">
+                     			<li><a href="#">淘宝</a></li>
+                     			<li><a href="#">聚划算</a></li>
+                     			<li><a href="#">旺信</a></li>
+                     			<li><a href="#">钉钉</a></li>
+                     			<li><a href="#">虾米音乐</a></li>
+                     			<li><a href="#">爱逛街</a></li>
+                     			<li><a href="#">网商银行</a></li>
+                     		</ul>
+                     		<ul class="wzhan_three2">
+                     			<li><a href="#">天猫</a></li>
+                     			<li><a href="#">飞猪</a></li>
+                     			<li><a href="#">闲鱼</a></li>
+                     			<li><a href="#">高德地图</a></li>
+                     			<li><a href="#">淘票票</a></li>
+                     			<li><a href="#">拍卖会</a></li>
+                     			<li><a href="#">阿里邮箱</a></li>
+                     		</ul>
+                     		<ul class="wzhan_three3">
+                     			<li><a href="#">支付宝</a></li>
+                     			<li><a href="#">蚂蚁聚宝</a></li>
+                     			<li><a href="#">阿里钱盾</a></li>
+                     			<li><a href="#">点点虫</a></li>
+                     			<li><a href="#">菜鸟裹裹</a></li>
+                     			<li><a href="#">阿里云</a></li>
+                     			<li><a href="#">阿里众包</a></li>
+                     		</ul>
+                     	</ul>
+                        <ul class="wz wzhan_four">
+                     		<h3>精彩推荐集</h3>
+                     		 <!-- 第四个精品推荐 -->
+                     		<ul class="wzhan_four1">
+                     			<li><a href="#">余额宝</a></li>
+                     			<li><a href="#">淘公仔</a></li>
+                     			<li><a href="#">淘宝香港</a></li>
+                     			<li><a href="#">淘宝全球</a></li>
+                     			<li><a href="#">闺蜜淘货</a></li>
+                     			<li><a href="#">淘工作</a></li>
+                     		</ul>
+                     		<ul class="wzhan_four2">
+                     			<li><a href="#">大牌捡宝</a></li>
+                     			<li><a href="#">浏览器</a></li>
+                     			<li><a href="#">淘宝台湾</a></li>
+                     			<li><a href="#">淘宝东南亚</a></li>
+                     			<li><a href="#">大众审评</a></li>
+                     		</ul>
+                     	</ul>
+                     </div>
+				</li>
+			</ul>
+		</div>
+		<div class="header_sosuo">
+			  <img src="img/2018-06-16_224912.jpg" class="sosuo_img">
+			  <input type="text" value="" class="sosuo_input">
+			  <a href="#" class="sosuo_a1">搜女装</a>
+			  <a href="#" class="sosuo_a2">搜全站</a>
+		</div>
+	</header>
+	<div id="main">
+		<img src="img/TB2qkIttFXXXXaIXXXXXXXXXXXX_!!50454948.jpg" class="main_img1">
+		<ul class="main_ul">
+			<li><a href="#">所有分类</a></li>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">连衣裙</a></li>
+			<li><a href="#">衬衫</a></li>
+			<li><a href="#">半身裙</a></li>
+			<li><a href="#">裤子</a></li>
+			<li><a href="#">风衣外套</a></li>
+			<li><a href="#">清仓特价</a></li>
+			<li><a href="#">会员制度</a></li>
+		</ul>
+
+		<div class="main_fdj">
+			<div id="small">
+				<img src="img/TB2uY1rfTtYBeNjy1XdXXXXyVXa_!!50454948.jpg" id="small_pic">
+	            <div id="move"></div>
+			</div>
+			<div id="big">
+				<img src="img/TB2uY1rfTtYBeNjy1XdXXXXyVXa_!!50454948.jpg" id="small_pic">
+			</div>
+			<ul id="toggle">
+				<li><img src="img/TB2uY1rfTtYBeNjy1XdXXXXyVXa_!!50454948.jpg"></li>
+				<li><img src="img/TB2gB8EbyMnBKNjSZFCXXX0KFXa_!!50454948.jpg"></li>
+				<li><img src="img/TB2iMD6fpuWBuNjSszbXXcS7FXa_!!50454948.jpg"></li>
+				<li><img src="img/TB25aX7f7SWBuNjSszdXXbeSpXa_!!50454948.jpg"></li>
+				<li><img src="img/TB2WChZf1GSBuNjSspbXXciipXa_!!50454948.jpg"></li>
+			</ul>
+
+			<div class="main_xiangqing">
+				  <h4>梅子熟了复古温柔风吊带裙雪纺仙女连衣裙2018夏新款少女心初恋裙</h4>
+				  <img src="img/TB1uibqKpXXXXXjXXXXXXXXXXXX-80-14.png" class="xiangqing_pic">
+				  <ul class="xiangqing_ul">
+					  <li><a href="#">海量新品</a></li>
+					  <li><a href="#">潮流穿搭</a></li>
+					  <li><a href="#">玩趣互动</a></li>
+				  </ul>
+
+				  <div class="xq_div1">
+				  	   <span class="div1_wz1">价格</span>
+				  	   <span class="div1_wz2">￥212.00</span>
+
+				  	   <span class="div1_wz3">淘宝价</span>
+				  	   <a href="#" class="div1_a1">￥169.00</a>
+				  	   <a href="#" class="div1_a2">春季新品</a>
+
+				  	   <p class="div1_p1">22272累计评论</p>
+				  	   <p class="div1_p2">4927交易成功</p>
+
+                       <p class="div1_p3">
+                       	    <span class="youhui">优惠</span>
+                       	    <span class="youhui2"><img src="img/64-jinbi.png">淘金币可抵3.38元</span>
+                       </p>
+                       <p class="div1_p4">
+                       	    <span class="peisong">配送</span>
+
+                       	    <span class="peisong2">
+                                浙江杭州至  天津河东区▼  快递 ￥8.00▼ 
+                       	    </span>
+                       </p>
+
+                       <p class="div1_p5">
+                       	  <span>尺码</span>
+                       </p>
+                       <ul class="div1_ul">
+                           <li>XS</li>
+                           <li>S</li>
+                           <li>X</li>
+                       </ul>
+				  </div>
+                  <span class="xq_span1">颜色分类</span>
+                  <div class="xq_dd1">
+                      杏色
+                  </div>
+                  <div class="xq_dd2">
+                      杏色 预售6月30日左右发
+                  </div>
+                  <span class="xq_span2">数量</span>
+
+                  <div class="xq_dd3">1</div>
+                  <span class="xq_span3">件(库存1242件)</span>
+
+                  <a href="#" class="xq_aa1">立即购买</a>
+                  <a href="#" class="xq_aa2">加入购物车</a>
+			</div>
+
+            <div class="main_biance">
+                 <img src="img/TB1zIlNFVXXXXXtXpXXxwHxIVXX-198-60.png">
+                 <a href="#" class="biance_a">梅子熟了 文艺复古清新女装</a>
+                 <p class="biance_p1">信誉：<img src="img/2018-06-22_162723.jpg"></p>
+                 <p class="biance_p2">掌柜：左继鹏</p>
+                 <p class="biance_p1">联系：<img src="img/2018-06-22_163152.jpg"></p>
+                 <p class="biance_p1">资质：<img src="img/2018-06-22_164208.jpg"></p>
+                 <img src="img/2018-06-22_164328.jpg">
+
+                 <a href="#" class="biance_a1">进入店铺</a>
+                 <a href="#" class="biance_a2">收藏店铺</a>
+            </div>
+		</div>
+
+        <div class="tab">
+            <!--列表-->
+            <div class="li">    
+                <ul>
+                    <li class="selected">详情</li>
+                    <li>评论</li>
+                    <li>收藏</li>
+                </ul>
+            </div>
+
+            <!-- 内容 -->
+            <div class="cont">  
+                <div class="show">
+                        <img src="img/TB2PhP3zeySBuNjy1zdXXXPxFXa_!!50454948.jpg">
+                        <img src="img/2018-06-22_171632.jpg">
+                        <img src="img/TB2eh38cHZnBKNjSZFGXXbt3FXa_!!50454948.jpg">
+                        <img src="img/TB22C.7fqSWBuNjSsrbXXa0mVXa_!!50454948.jpg">
+                        <img src="img/TB2Y0S6d4uTBuNkHFNRXXc9qpXa_!!50454948.jpg">
+                        <img src="img/TB2IFtLf49YBuNjy0FfXXXIsVXa_!!50454948.jpg">
+                        <img src="img/TB2i8tBfKuSBuNjy1XcXXcYjFXa_!!50454948.jpg">
+                        <img src="img/TB2Bd8Dur5YBuNjSspoXXbeNFXa_!!50454948.jpg">
+                        <img src="img/TB20BDebyQnBKNjSZFmXXcApVXa_!!50454948.jpg">
+                        <img src="img/TB2nVIsl3KTBuNkSne1XXaJoXXa_!!50454948.jpg">
+                        <img src="img/TB2p.A5fpGWBuNjy0FbXXb4sXXa_!!50454948.jpg">
+                        <img src="img/TB2TxJxfQCWBuNjy0FaXXXUlXXa_!!50454948.jpg">
+                        <img src="img/TB2dextfNSYBuNjSspjXXX73VXa_!!50454948.jpg">
+                        <img src="img/TB20EtlfKuSBuNjSsziXXbq8pXa_!!50454948.jpg">
+                        <img src="img/TB2a0KHfStYBeNjSspaXXaOOFXa_!!50454948.jpg">
+                        <img src="img/TB2UBQVfxSYBuNjSsphXXbGvVXa_!!50454948.jpg">
+                        <img src="img/TB2QlE7cOMnBKNjSZFCXXX0KFXa_!!50454948.jpg">
+                        <img src="img/TB2WRiXfUR1BeNjy0FmXXb0wVXa_!!50454948.jpg">
+                        <img src="img/TB2e..JfwmTBuNjy1XbXXaMrVXa_!!50454948.jpg">
+                        <img src="img/TB2oQtxfGmWBuNjy1XaXXXCbXXa_!!50454948.jpg">
+                        <img src="img/TB2zv0vfHSYBuNjSspfXXcZCpXa_!!50454948.jpg">
+                        <img src="img/TB2EQmGfStYBeNjSspkXXbU8VXa_!!50454948.jpg">
+                        <img src="img/TB2hswWfrGYBuNjy0FoXXciBFXa_!!50454948.jpg">
+                        <img src="img/TB2qFBkfKOSBuNjy0FdXXbDnVXa_!!50454948.jpg">
+                        <img src="img/TB2RzM2fCCWBuNjy0FhXXb6EVXa_!!50454948.jpg">
+                        <img src="img/TB2tFQ8fqSWBuNjSsrbXXa0mVXa_!!50454948.jpg">
+                        <img src="img/TB2ZDZKfrSYBuNjSspiXXXNzpXa_!!50454948.jpg">
+                        <img src="img/TB2bcMAcRyWBuNkSmFPXXXguVXa_!!50454948.jpg">
+                        <img src="img/TB2UBpJfY9YBuNjy0FgXXcxcXXa_!!50454948.jpg">
+                        <img src="img/TB2tcaOf9BYBeNjy0FeXXbnmFXa_!!50454948.jpg">
+                        <img src="img/TB2Z64GfWmWBuNjy1XaXXXCbXXa_!!50454948.jpg">
+                        <img src="img/TB2opYaf_JYBeNjy1zeXXahzVXa_!!50454948.jpg">
+                        <img src="img/TB2lmduf1uSBuNjSsziXXbq8pXa_!!50454948 (1).jpg">
+                </div>
+                <div><img src="img/pinglun1.jpg">
+                    <img src="img/pinglun2.jpg">
+                    <img src="img/pinglun3.jpg">
+                    <img src="img/pinglun4.jpg">
+                </div>
+                <div><img src="img/shoucang.jpg">
+                     <img src="img/shoucang2.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+           <ul class="footer_ul1">
+            <li><a href="#">阿里巴巴集团</a></li>
+            <li><a href="#">阿里巴巴国际站</a></li>
+            <li><a href="#">阿里巴巴中国站</a></li>
+            <li><a href="#">全球速卖通</a></li>
+            <li><a href="#">淘宝网</a></li>
+            <li><a href="#">天猫</a></li>
+            <li><a href="#">聚划算</a></li>
+            <li><a href="#">一淘</a></li>
+            <li><a href="#">阿里妈妈</a></li>
+            <li><a href="#">阿里云计算</a></li>
+            <li><a href="#">云OS</a></li>
+            <li><a href="#">万网</a></li>
+            <li><a href="#">支付宝</a></li>
+           </ul>
+
+           <ul class="footer_ul2">
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">合作伙伴</a></li>
+                    <li><a href="#">营销中心</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                    <li><a href="#">联系客服</a></li>
+                    <li><a href="#">开放平台</a></li>
+                    <li><a href="#">诚征英才</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">网站地图</a></li>
+                    <li><a href="#">法律声明及隐私权政策</a></li>
+                    <li><a href="#">知识产权</a></li>
+                    <li><a href="#">C2003-现在 Taobao.com 版权所有</a></li>
+                    <li><a href="#">网络文化经营许可证：浙网文[2016]0268-027号</a></li>
+                    <li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+                    <li><a href="#">信息王利传授视听许可证：1109364号</a></li>
+                    <li><a href="#">互联网违法和不良信息举报电话：0571-81683755 blxxjb@alibaba-inc.com</a></li>
+                    <li><a href="#"><img src="img/2018-06-21_143246.jpg">浙公网安备33010002000078号</a></li>
+                    <li><a href="#">(浙)网械 平台备字[2018]第00004号</a></li>
+                    <li><a href="#">出版物网络交易平台服务经营备案证：新出发浙备字第002号</a></li>
+                    <li><a href="#">互联网药品信息服务资格证书编号：(浙)-经营性-2018-0010</a></li>
+                </ul>
+    </footer>
+</body>
+</html>
